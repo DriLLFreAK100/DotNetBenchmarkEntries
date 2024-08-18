@@ -3,7 +3,7 @@ using BenchmarkDotNet.Configs;
 using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Running;
 
-namespace IEnumerableVsList;
+namespace OneWhereVsMultipleWhere;
 
 public class Program
 {
@@ -21,50 +21,47 @@ public class Program
 [SimpleJob]
 public class TestEntry
 {
-  private IEnumerable<Student> _enrolledStudents = [];
+  private List<Student> _students = [];
 
-  [Params(10000)]
+  [Params(1_000_000)]
   public int N;
 
   [GlobalSetup]
   public void Setup()
   {
-    List<Student> students = [];
+    var random = new Random();
 
     for (var i = 0; i < N; i++)
     {
-      students.Add(new()
+      _students.Add(new()
       {
         Id = i,
         Name = $"name {i}",
+        Age = random.Next(12, 40),
         IsEnrolled = i % 2 == 0,
       });
     }
-
-    _enrolledStudents = students.Where(x => x.IsEnrolled);
   }
 
   [Benchmark(Baseline = true)]
-  public void WithIEnumerable()
+  public void OneWhere()
   {
-    var input = _enrolledStudents;
-    Loop(input);
+    _students
+      .Where(x =>
+        x.IsEnrolled
+        && x.Age >= 21
+        && x.Age < 30)
+      .ToList();
   }
 
   [Benchmark]
-  public void WithList()
+  public void MultipleWhere()
   {
-    var input = _enrolledStudents.ToList();
-    Loop(input);
-  }
-
-  private static List<string> Loop(IEnumerable<Student> data)
-  {
-    data.Any(x => x.IsEnrolled);
-    data.First();
-    data.Count();
-    data.Sum(x => x.Id);
-    return data.Select(d => d.Name).ToList();
+    _students
+      .Where(x => x.IsEnrolled)
+      .Where(x => x.Age >= 21)
+      .Where(x => x.Age < 30)
+      .ToList();
   }
 }
 
@@ -73,6 +70,8 @@ public class Student
   public int Id { get; set; }
 
   public bool IsEnrolled { get; set; }
+
+  public int Age { get; set; }
 
   public string Name { get; set; }
 }
