@@ -70,7 +70,7 @@ public class TestEntry
       return;
     }
 
-    if (_student.Age == 10)
+    if (_student.Age == 9)
     {
       return;
     }
@@ -101,6 +101,9 @@ public class TestEntry
     {
     }
     else if (_student.Age == 8)
+    {
+    }
+    else if (_student.Age == 9)
     {
     }
     else
