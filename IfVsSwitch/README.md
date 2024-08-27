@@ -9,8 +9,8 @@ Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
 
 ```
 
-| Method   |      Mean |     Error |    StdDev | Ratio | Allocated | Alloc Ratio |
-| -------- | --------: | --------: | --------: | ----: | --------: | ----------: |
-| If       | 0.7543 ns | 0.0024 ns | 0.0022 ns |  1.00 |         - |          NA |
-| IfElseIf | 0.3155 ns | 0.0040 ns | 0.0038 ns |  0.42 |         - |          NA |
-| Switch   | 0.3572 ns | 0.0018 ns | 0.0014 ns |  0.47 |         - |          NA |
+| Method   |      Mean |     Error |    StdDev |    Median | Ratio | RatioSD | Allocated | Alloc Ratio |
+| -------- | --------: | --------: | --------: | --------: | ----: | ------: | --------: | ----------: |
+| If       | 0.7711 ns | 0.0200 ns | 0.0177 ns | 0.7635 ns |  1.00 |    0.03 |         - |          NA |
+| IfElseIf | 0.3147 ns | 0.0027 ns | 0.0025 ns | 0.3145 ns |  0.41 |    0.01 |         - |          NA |
+| Switch   | 0.3586 ns | 0.0005 ns | 0.0005 ns | 0.3587 ns |  0.47 |    0.01 |         - |          NA |

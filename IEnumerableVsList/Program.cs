@@ -1,7 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Configs;
-using BenchmarkDotNet.Diagnosers;
 using BenchmarkDotNet.Running;
+using Common;
 
 namespace IEnumerableVsList;
 
@@ -9,12 +8,7 @@ public class Program
 {
   public static void Main(string[] args)
   {
-    BenchmarkRunner.Run<TestEntry>(
-      DefaultConfig.Instance
-        .AddDiagnoser(
-          MemoryDiagnoser.Default,
-          EventPipeProfiler.Default)
-    );
+    BenchmarkRunner.Run<TestEntry>(Configs.BenchmarkSettings);
   }
 }
 

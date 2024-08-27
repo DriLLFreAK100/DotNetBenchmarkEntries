@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneWhereVsMultipleWhere", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IfVsSwitch", "IfVsSwitch\IfVsSwitch.csproj", "{B4EF648F-FD3F-42D1-A219-87A120E5F979}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVsParallelForIO", "AsyncVsParallelForIO\AsyncVsParallelForIO.csproj", "{889187B7-7C97-4F57-BF14-5BAF3BB5246D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{1D4BCC8A-DE60-4529-9D44-63BF076987A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{B4EF648F-FD3F-42D1-A219-87A120E5F979}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4EF648F-FD3F-42D1-A219-87A120E5F979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4EF648F-FD3F-42D1-A219-87A120E5F979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889187B7-7C97-4F57-BF14-5BAF3BB5246D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889187B7-7C97-4F57-BF14-5BAF3BB5246D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889187B7-7C97-4F57-BF14-5BAF3BB5246D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889187B7-7C97-4F57-BF14-5BAF3BB5246D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
