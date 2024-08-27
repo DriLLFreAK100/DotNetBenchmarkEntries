@@ -9,8 +9,8 @@ Apple M1 Pro, 1 CPU, 10 logical and 10 physical cores
 
 ```
 
-| Method          | N   |       Mean |   Error |  StdDev |     Median | Ratio | Allocated | Alloc Ratio |
-| --------------- | --- | ---------: | ------: | ------: | ---------: | ----: | --------: | ----------: |
-| WithAsyncAwait  | 5   | 2,505.8 ms | 0.97 ms | 0.91 ms | 2,505.9 ms |  1.00 |   2.51 KB |        1.00 |
-| WithTaskWhenAll | 5   |   501.6 ms | 0.45 ms | 0.42 ms |   501.5 ms |  0.20 |   2.75 KB |        1.10 |
-| WithParallel    | 5   |   501.6 ms | 0.25 ms | 0.23 ms |   501.6 ms |  0.20 |   3.95 KB |        1.57 |
+| Method          | N   |         Mean |     Error |    StdDev |       Median | Ratio |   Gen0 | Allocated | Alloc Ratio |
+| --------------- | --- | -----------: | --------: | --------: | -----------: | ----: | -----: | --------: | ----------: |
+| WithAsyncAwait  | 200 | 1,155.537 ms | 6.0527 ms | 5.3656 ms | 1,155.747 ms | 1.000 |      - |  52.78 KB |        1.00 |
+| WithTaskWhenAll | 200 |     5.944 ms | 0.0311 ms | 0.0276 ms |     5.943 ms | 0.005 | 7.8125 |  56.02 KB |        1.06 |
+| WithParallel    | 200 |   114.234 ms | 0.6321 ms | 0.5604 ms |   114.182 ms | 0.099 |      - |  77.63 KB |        1.47 |

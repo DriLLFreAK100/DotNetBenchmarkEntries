@@ -15,7 +15,7 @@ public class Program
 [SimpleJob]
 public class TestEntry
 {
-  [Params(5)]
+  [Params(200)]
   public int N;
 
   private IEnumerable<Task> networkCallTasks = [];
@@ -58,6 +58,6 @@ public class TestEntry
 
   private static async Task MockNetworkCall()
   {
-    await Task.Delay(500);
+    await Task.Delay(5);
   }
 }
