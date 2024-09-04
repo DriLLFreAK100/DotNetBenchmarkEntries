@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncVsParallelForIO", "Asy
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{1D4BCC8A-DE60-4529-9D44-63BF076987A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectReturnVsAssignBeforeReturn", "DirectReturnVsAssignBeforeReturn\DirectReturnVsAssignBeforeReturn.csproj", "{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D4BCC8A-DE60-4529-9D44-63BF076987A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
