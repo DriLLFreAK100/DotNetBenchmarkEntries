@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectReturnVsAssignBeforeReturn", "DirectReturnVsAssignBeforeReturn\DirectReturnVsAssignBeforeReturn.csproj", "{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVsVariable", "ConstVsVariable\ConstVsVariable.csproj", "{C382C6D6-5AA1-442A-AD65-F7108454D2E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9F1E2EF-F7BB-40C5-AFD0-86503CF5E0B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
