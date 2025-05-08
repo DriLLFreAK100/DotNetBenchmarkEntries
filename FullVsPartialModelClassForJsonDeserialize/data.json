@@ -1,0 +1,2047 @@
+[
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a8b9c0d1-e2f3-4a5b-6c7d-8e9f0a1b2c3d",
+    "timestamp": "2024-07-29T11:00:00Z",
+    "isActive": false,
+    "balance": "$5,876.21",
+    "picture": "http://placehold.it/32x32",
+    "age": 45,
+    "eyeColor": "green",
+    "name": "Sarah Miller",
+    "gender": "female",
+    "company": "Innovate LLC",
+    "email": "sarah.miller@innovate.com",
+    "phone": "+1 (800) 555-0200",
+    "address": "456 Oak Ave, Otherville, USA",
+    "about": "Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Curabitur aliquet quam id dui posuere blandit. Pellentesque in ipsum id orci porta dapibus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Proin eget tortor risus. This is another long description to ensure the object size is significant for testing purposes.",
+    "registered": "2021-05-20T14:30:00Z",
+    "latitude": 36.1699,
+    "longitude": -115.1398,
+    "tags": [
+      "manager",
+      "project",
+      "agile",
+      "data_analysis"
+    ],
+    "friends": [
+      {
+        "id": 3,
+        "name": "Mike Wilson"
+      },
+      {
+        "id": 4,
+        "name": "Linda Davis"
+      }
+    ],
+    "greeting": "Greetings, Sarah Miller! Important updates await.",
+    "favoriteFruit": "banana",
+    "complexData": {
+      "nestedValue1": "Critical business data for Sarah",
+      "nestedValue2": 67890,
+      "deeplyNested": {
+        "propertyA": "Sarah's specific deeply nested property A",
+        "propertyB": [
+          100,
+          200,
+          300
+        ],
+        "propertyC": {
+          "subProp1": false,
+          "subProp2": "Unique string for Sarah's deep nest"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "1234abcd-efgh-5678-ijkl-mnopqrstuvwx",
+        "activityType": "REPORT_GENERATED",
+        "details": "Sarah Miller generated the Q2 financial report. The report includes revenue, expenses, and profit margins. This detailed log entry is designed to contribute to the overall size of the JSON data, facilitating robust performance testing of JSON deserialization.",
+        "occurredAt": "2024-07-29T10:55:00Z",
+        "relatedItems": [
+          {
+            "itemId": "report-q2-financial",
+            "itemType": "REPORT"
+          },
+          {
+            "itemId": "user-sarah-miller",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "66a7e4f2-c1b7-4b8a-9f0e-0d3c1b7e4f2c",
+    "timestamp": "2024-07-29T10:30:00Z",
+    "isActive": true,
+    "balance": "$2,345.67",
+    "picture": "http://placehold.it/32x32",
+    "age": 30,
+    "eyeColor": "blue",
+    "name": "John Doe",
+    "gender": "male",
+    "company": "TechCorp",
+    "email": "john.doe@techcorp.com",
+    "phone": "+1 (800) 555-0100",
+    "address": "123 Main St, Anytown, USA",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. This is a longer text to make the object bigger.",
+    "registered": "2022-01-15T09:00:00Z",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "tags": [
+      "developer",
+      "csharp",
+      "json",
+      "benchmark",
+      "data"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Jane Smith"
+      },
+      {
+        "id": 1,
+        "name": "Peter Jones"
+      },
+      {
+        "id": 2,
+        "name": "Alice Brown"
+      }
+    ],
+    "greeting": "Hello, John Doe! You have 3 unread messages.",
+    "favoriteFruit": "apple",
+    "complexData": {
+      "nestedValue1": "Some important string data for John",
+      "nestedValue2": 12345,
+      "deeplyNested": {
+        "propertyA": "Deeply nested property A value for John",
+        "propertyB": [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        "propertyC": {
+          "subProp1": true,
+          "subProp2": "Another string within the deep nest for John"
+        }
+      }
+    },
+    "activityLog": [
+      {
+        "logId": "a1b2c3d4-e5f6-7890-1234-567890abcdef",
+        "activityType": "LOGIN_SUCCESS",
+        "details": "User John Doe successfully logged in from IP 192.168.1.100. Session established. This activity log entry contains a significant amount of text to increase its size and make the overall JSON payload larger for testing purposes. More details about the login event can be found in the security audit logs if needed.",
+        "occurredAt": "2024-07-29T10:25:00Z",
+        "relatedItems": [
+          {
+            "itemId": "session-xyz-john",
+            "itemType": "SESSION"
+          },
+          {
+            "itemId": "user-john-doe",
+            "itemType": "USER_PROFILE"
+          }
+        ]
+      },
+      {
+        "logId": "f0e9d8c7-b6a5-4321-0fed-cba987654321",
+        "activityType": "DATA_QUERY",
+        "details": "User John Doe queried the 'products' table with filters: category='electronics', price_range='100-500'. The query returned 25 results. This is another detailed entry to ensure the JSON object has substantial content for performance benchmarking of deserialization processes.",
+        "occurredAt": "2024-07-29T10:28:00Z",
+        "relatedItems": [
+          {
+            "itemId": "query-abc-john",
+            "itemType": "DATABASE_QUERY"
+          },
+          {
+            "itemId": "table-products",
+            "itemType": "DATABASE_TABLE"
+          }
+        ]
+      }
+    ]
+  }
+]

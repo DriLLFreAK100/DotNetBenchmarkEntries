@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectReturnVsAssignBeforeR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVsVariable", "ConstVsVariable\ConstVsVariable.csproj", "{C382C6D6-5AA1-442A-AD65-F7108454D2E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullVsPartialModelClassForJsonDeserialize", "FullVsPartialModelClassForJsonDeserialize\FullVsPartialModelClassForJsonDeserialize.csproj", "{48896F6E-419A-409E-84AC-ADFCC938B950}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +56,9 @@ Global
 		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C382C6D6-5AA1-442A-AD65-F7108454D2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48896F6E-419A-409E-84AC-ADFCC938B950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48896F6E-419A-409E-84AC-ADFCC938B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48896F6E-419A-409E-84AC-ADFCC938B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48896F6E-419A-409E-84AC-ADFCC938B950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
