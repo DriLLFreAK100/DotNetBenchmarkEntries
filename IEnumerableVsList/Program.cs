@@ -42,17 +42,17 @@ public class TestEntry
   public void WithIEnumerable()
   {
     var input = _enrolledStudents;
-    Loop(input);
+    DoSomething(input);
   }
 
   [Benchmark]
   public void WithList()
   {
     var input = _enrolledStudents.ToList();
-    Loop(input);
+    DoSomething(input);
   }
 
-  private static List<string> Loop(IEnumerable<Student> data)
+  private static List<string> DoSomething(IEnumerable<Student> data)
   {
     data.Any(x => x.IsEnrolled);
     data.First();
