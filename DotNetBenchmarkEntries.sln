@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstVsVariable", "ConstVsV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullVsPartialModelClassForJsonDeserialize", "FullVsPartialModelClassForJsonDeserialize\FullVsPartialModelClassForJsonDeserialize.csproj", "{48896F6E-419A-409E-84AC-ADFCC938B950}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntersectListVsHashset", "IntersectListVsHashset\IntersectListVsHashset.csproj", "{A88BBE52-70BC-4A09-B8B7-7BC6DD379467}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{48896F6E-419A-409E-84AC-ADFCC938B950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48896F6E-419A-409E-84AC-ADFCC938B950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48896F6E-419A-409E-84AC-ADFCC938B950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A88BBE52-70BC-4A09-B8B7-7BC6DD379467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A88BBE52-70BC-4A09-B8B7-7BC6DD379467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A88BBE52-70BC-4A09-B8B7-7BC6DD379467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A88BBE52-70BC-4A09-B8B7-7BC6DD379467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
